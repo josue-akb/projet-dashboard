@@ -1,18 +1,24 @@
-# Projet Data - Visualisation des Ventes
+#  Projet Dashboard - Visualisation de Données de Ventes
 
-## Description
+Bienvenue dans ce projet de dashboard interactif développé avec **Streamlit**, **Plotly**, et **Pandas**.  
+Il permet d'explorer des données de ventes, visualiser des KPIs et générer un rapport PDF personnalisé.
 
-Ce projet permet de visualiser des données de ventes avec des graphiques interactifs et de générer un rapport PDF des ventes. Il utilise **Streamlit** pour l’interface utilisateur, **Plotly** pour la visualisation des données, et **FPDF** pour la génération du rapport PDF.
+---
 
-## Fonctionnalités
+##  Fonctionnalités
 
-- **Filtrage des données** : Filtrez les données par période et par catégorie de produit.
-- **Graphiques interactifs** : Visualisez le chiffre d'affaires par mois et la répartition du chiffre d'affaires par catégorie.
-- **Rapport PDF** : Téléchargez un rapport PDF contenant des graphiques et un résumé des KPIs.
+-  **Filtrage dynamique** par date et par catégorie
+-  **Visualisations interactives** (courbes, camemberts)
+-  **KPIs clés** : Nombre de commandes, CA, panier moyen
+-  **Téléchargement d’un rapport PDF** avec graphiques intégrés
+-  Accès aux **données brutes**
 
-## Installation
+---
 
-1. Clonez le dépôt :
-   ```bash
-   git clone https://github.com/ton-compte/mon-projet-data.git
-   cd mon-projet-data
+##  Installation
+
+1. Clone le dépôt :
+
+```bash
+git clone https://github.com/josue-akb/projet-dashboard.git
+cd projet-dashboard
